@@ -1,15 +1,17 @@
 :root {
   --primary: #e99401;
   --black: #262626;
-  --white: #FFF;
-  --fuente-principal: 'Outfit', sans-serif;
+  --white: #fff;
+  --fuente-principal: "Outfit", sans-serif;
 }
 html {
   font-size: 62.5%;
   box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -22,7 +24,7 @@ img {
   max-width: 100%;
   height: auto;
 }
-[class*="contenedor"], 
+[class*="contenedor"],
 main {
   width: min(95%, 120rem);
   margin: 3rem auto;
@@ -62,7 +64,7 @@ main {
   border-radius: 0.5rem;
   transition-property: background-color;
   transition-duration: 360ms;
- }
+}
 
 .enlace:hover {
   background-color: var(--primary);

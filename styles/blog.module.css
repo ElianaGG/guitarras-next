@@ -1,12 +1,15 @@
-.contenido {
+.grid {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 5rem;
+  gap: 4rem;
 }
-
 @media (min-width: 768px) {
-  .contenido {
+  .grid {
     grid-template-columns: repeat(2, 1fr);
-    align-items: center;
+  }
+}
+@media (min-width: 992px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
